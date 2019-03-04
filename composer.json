@@ -1,0 +1,28 @@
+{
+    "name": "ghost-ai/thinkphp5-uedit",
+    "description": "ueditor for thinkphp5",
+    "homepage": "https://code.aliyun.com/ghost-ai/thinkphp5-ueditor.git",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "version": "2.2",
+    "authors": [
+        {
+            "name": "ghost-ai",
+            "email": "wq1436@hotmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://code.aliyun.com/ghost-ai/thinkphp5-ueditor.git"
+    },
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ghost\\uedit\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    }
+}
