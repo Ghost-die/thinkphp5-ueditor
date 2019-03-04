@@ -15,12 +15,12 @@ use think\console\Input;
 use think\console\input\Option;
 use think\console\Output;
 
-class Baidu extends Command
+class Edit extends Command
 {
 
 
     protected function configure(){
-        $this->setName('baidu')
+        $this->setName('editbuild')
              ->addOption('path', 'd', Option::VALUE_OPTIONAL, 'path to move', null)
              ->addOption('config', null, Option::VALUE_OPTIONAL, 'config to init',null)
              ->setDescription('move baidu`s ueditor assets');
