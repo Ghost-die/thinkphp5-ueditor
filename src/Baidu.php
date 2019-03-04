@@ -55,7 +55,7 @@ class Baidu extends Command
     }
 
     /**
-     * 迁移百度编辑器静态资源
+     * 迁移百静态资源
      * @param @string $src  原来目录
      * @param @string $path 目标目录
      */
